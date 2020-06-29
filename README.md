@@ -1,9 +1,9 @@
 # SimpleMovie Project:movie_camera:
 JAVA기반 한국 영화 박스오피스 1~10위 정보를 Parsing 및 Crawling하고 MongoDB에 저장 후 사용자에게 정보를 출력해주는 Console Programing
 
-## "heavy_check_mark:Developer Environment
-  - Language : :coffee:JAVA 1.8
-  - IDE Tool : :computer:Eclipse
+## :heavy_check_mark: Developer Environment
+  - Language : :coffee: JAVA 1.8
+  - IDE Tool : :computer: Eclipse
   - Package Manager : Maven Repository
   - Using Package : jsoup, json-simple, mongo-java-driver
   - Version Tools : Github, Sourcetree
@@ -12,7 +12,7 @@ JAVA기반 한국 영화 박스오피스 1~10위 정보를 Parsing 및 Crawling�
     + [NAVER MOVIE](https://movie.naver.com/)
     + [DAUM MOVIE](https://movie.daum.net/)
 
-## :floppy disk:Repository Structure Description
+## :floppy disk: Repository Structure Description
 #### 1. src/common
   - [BoxOfficeParser](https://github.com/Kim-hyeran/2020_Java_Project_SimpleMovie/tree/master/MovieMacro/src/common/BoxOfficeParser) : 한국영화진흥위원회에서 일별 박스오피스 정보 수집(순위, 영화제목, 누적관객수, 누적매출액)
   - [SimpleMovieMain](https://github.com/Kim-hyeran/2020_Java_Project_SimpleMovie/tree/master/MovieMacro/src/common/SimpleMovieMain) : 프로그램 새작하는 곳, 콘솔 프로그래밍 view 단
@@ -29,7 +29,7 @@ JAVA기반 한국 영화 박스오피스 1~10위 정보를 Parsing 및 Crawling�
 #### 6. pom.xml
   - Maven에서 build할 Library를 설정하는 장소
 
-## :love_letter:How to use?
+## :love_letter: How to use?
   1. BoxOfficeParser에서 발급받은 key를 교체한다.
   2. ReplyDAO에서 MongoDB를 세팅한다(Connect, DB, Collection 등)
   3. 메인 프로그램을 실행한다.
