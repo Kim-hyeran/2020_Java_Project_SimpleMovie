@@ -30,7 +30,8 @@ JAVA기반 한국 영화 박스오피스 1~10위 정보를 Parsing 및 Crawling�
   - Maven에서 build할 Library를 설정하는 장소
 
 ## :love_letter: How to use?
-  1. BoxOfficeParser에서 발급받은 key를 교체한다.
+First, you should get a key from 한국영화진흥위원회.
+  1. 발급받은 key를 BoxOfficeParser에서 교체한다.
   2. ReplyDAO에서 MongoDB를 세팅한다(Connect, DB, Collection 등)
   3. 메인 프로그램을 실행한다.
   4. 1~10위 중 원하는 영화를 선택하고, 순위를 입력한다.
