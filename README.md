@@ -12,7 +12,7 @@ JAVA기반 한국 영화 박스오피스 1~10위 정보를 Parsing 및 Crawling�
     + [NAVER MOVIE](https://movie.naver.com/)
     + [DAUM MOVIE](https://movie.daum.net/)
 
-## :floppy disk: Repository Structure Description
+## :pencil2: Repository Structure Description
 #### 1. src/common
   - [BoxOfficeParser](https://github.com/Kim-hyeran/2020_Java_Project_SimpleMovie/tree/master/MovieMacro/src/common/BoxOfficeParser) : 한국영화진흥위원회에서 일별 박스오피스 정보 수집(순위, 영화제목, 누적관객수, 누적매출액)
   - [SimpleMovieMain](https://github.com/Kim-hyeran/2020_Java_Project_SimpleMovie/tree/master/MovieMacro/src/common/SimpleMovieMain) : 프로그램 새작하는 곳, 콘솔 프로그래밍 view 단
